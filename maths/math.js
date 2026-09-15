@@ -1,11 +1,11 @@
 /**
- * Adds two numbers.
+ * Sums two numbers.
  *
  * @param {number} x - The first number.
  * @param {number} y - The second number.
  * @returns {number} The sum of x and y.
  */
-export function add(x, y) {
+export function sum(x, y) {
   return x + y;
 }
 
@@ -37,16 +37,16 @@ export function divide(x, y) {
 }
 
 /**
- * Asynchronously adds two numbers after a 1-second delay.
+ * Asynchronously sums two numbers after a 1-second delay.
  *
- * @param {number} x - The first number to add.
- * @param {number} y - The second number to add.
+ * @param {number} x - The first number to sum.
+ * @param {number} y - The second number to sum.
  * @returns {Promise<number>} A promise that resolves with the sum of x and y.
  */
-export function asyncAdd(x, y) {
+export function asyncSum(x, y) {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(add(x, y));
+      resolve(sum(x, y));
     }, 1000);
   });
 }
