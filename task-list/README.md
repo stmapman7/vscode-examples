@@ -1,4 +1,4 @@
-## Tasks for a Vite Project
+# Tasks for a Vite Project
 
 In the example below, we've got separate tasks for linting, testing, building, and serving a Vite app.
 
@@ -42,7 +42,7 @@ The development server task runs in the background so you can continue working w
 }
 ```
 
-### Adding a Backend Server
+## Adding a Backend Server
 
 So, now let's say we _also_ wanted to spin up the backend API. We can add some additional tasks.
 
